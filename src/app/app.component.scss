@@ -1,0 +1,22 @@
+ul {
+
+    label {
+        margin-right: 300px;
+    }
+
+    input[type="checkbox"]:checked+label {
+        font-style: italic;
+        color: red;
+        text-decoration: line-through;
+
+    }
+
+    .deleteItem {
+        text-align: right;
+    }
+
+    width: 500px;
+    padding: 0;
+    list-style: none;
+
+}
